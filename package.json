@@ -1,0 +1,15 @@
+{
+  "name": "cljscript",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@expo/vector-icons": "^5.0.0",
+    "expo": "15.0.0",
+    "react": "~15.4.2",
+    "react-native": "github:exponentjs/react-native#sdk-15.0.0",
+    "react-native-elements": "^0.13.0"
+  }
+}

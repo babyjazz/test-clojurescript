@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e83bc64-a1a5-4dc0-89e7-c1129e8e0f80" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="core.cljs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cljscript/core.cljs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/cljscript/core.cljs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
+    <option name="width" value="1380" />
+    <option name="height" value="1049" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cljscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cljscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cljscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cljscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cljscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cljscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cljscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="ReplState" timestamp="1497627567314">{:repl-history {:ide [], :local [{:command &quot;(defn count [] \n  (inc click-count))&quot;, :offset 36, :ns &quot;cljscript.core&quot;} {:command &quot;(def count [] \n  (inc click-count))&quot;, :offset 35, :ns &quot;cljscript.core&quot;} {:command &quot;(defn count []\n  (inc click-count))&quot;, :offset 35, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [greeting (subscribe [:get-greeting])]\n    (fn []\n      [view {:style {:flex-direction \&quot;column\&quot; :margin 40 :align-items \&quot;center\&quot;}}\n       [image {:source (js/require \&quot;./assets/images/cljs.png\&quot;)\n               :style {:width 200\n                       :height 200}}]\n       [text {:style {:font-size 30 :font-weight \&quot;100\&quot; :margin-bottom 20 :text-align \&quot;center\&quot;}} @greeting]\n       [touchable-highlight {:style {:background-color \&quot;#999\&quot; :padding 10 :border-radius 5}\n                             :on-press #(count )}\n        [text {:style {:color \&quot;white\&quot; :text-align \&quot;center\&quot; :font-weight \&quot;bold\&quot;}} \&quot;press me\&quot;]]])))&quot;, :offset 637, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [greeting (subscribe [:get-greeting])]\n    (fn []\n      [view {:style {:flex-direction \&quot;column\&quot; :margin 40 :align-items \&quot;center\&quot;}}\n       [image {:source (js/require \&quot;./assets/images/cljs.png\&quot;)\n               :style {:width 200\n                       :height 200}}]\n       [text {:style {:font-size 30 :font-weight \&quot;100\&quot; :margin-bottom 20 :text-align \&quot;center\&quot;}} @greeting]\n       [touchable-highlight {:style {:background-color \&quot;#999\&quot; :padding 10 :border-radius 5}\n                             :on-press #(alert \&quot;hello\&quot;)}\n        [text {:style {:color \&quot;white\&quot; :text-align \&quot;center\&quot; :font-weight \&quot;bold\&quot;}} \&quot;press me\&quot;]]])))&quot;, :offset 644, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [greeting (subscribe [:get-greeting])]\n    (fn []\n      [view {:style {:flex-direction \&quot;column\&quot; :margin 40 :align-items \&quot;center\&quot;}}\n       [image {:source (js/require \&quot;./assets/images/cljs.png\&quot;)\n               :style {:width 200\n                       :height 200}}]\n       [text {:style {:font-size 30 :font-weight \&quot;100\&quot; :margin-bottom 20 :text-align \&quot;center\&quot;}} @greeting]\n       [touchable-highlight {:style {:background-color \&quot;#999\&quot; :padding 10 :border-radius 5}\n                             :on-press #(swap! click-count inc)}\n        [text {:style {:color \&quot;white\&quot; :text-align \&quot;center\&quot; :font-weight \&quot;bold\&quot;}} \&quot;press me\&quot;]]])))&quot;, :offset 652, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [second (r/atom 0)]\n    (fn []\n      [view \n       [text \&quot;hello\&quot;]])))&quot;, :offset 94, :ns &quot;cljscript.core&quot;} {:command &quot;(ns cljscript.core\n    (:require [reagent.core :as r :refer [atom]]\n              [re-frame.core :refer [subscribe dispatch dispatch-sync]]\n              [cljscript.handlers]\n              [cljscript.subs]\n              [cljs-exponent.reagent :refer [text text-input view image touchable-highlight] :as rn]))&quot;, :offset 308, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [second (r/atom 0)]\n    (fn []\n      [view {:style {:flex 1 :padding 10 :margin-top 22}}\n       [text \&quot;hello \&quot; @second]\n       [text-input]])))&quot;, :offset 168, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [second (r/atom 0)]\n    (fn []\n      [view {:style {:flex 1 :padding 10 :margin-top 22}}\n       [text \&quot;hello \&quot; @second]\n       [text-input {:value \&quot;\&quot; :placeholder \&quot;placeholder\&quot; :on-text-change #(swap! second inc)}]])))&quot;, :offset 243, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [second (r/atom \&quot;\&quot;)]\n    (fn []\n      [view {:style {:flex 1 :padding 10 :margin-top 22}}\n       [text \&quot;hello \&quot; @second]\n       [text-input {:value \&quot;\&quot; :placeholder \&quot;placeholder\&quot; :on-change-text #(swap! second \&quot;ok\&quot;)}]])))&quot;, :offset 245, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [value (r/atom \&quot;\&quot;)]\n    (fn []\n      [view {:style {:flex 1 :padding 10 :margin-top 22}}\n       [text \&quot;hello \&quot; @value]\n       [text-input {:value @value :placeholder \&quot;placeholder\&quot; :on-change-text #(reset! value (-&gt; % .-target .-value))}]])))&quot;, :offset 266, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [value (r/atom \&quot;foo\&quot;)]\n    (fn []\n      [:view {:style {:flex 1 :padding 10 :margin-top 22}}\n       [:text \&quot;hello \&quot; @value]\n       [:text \&quot;change it here: \&quot; [atom-input value]]])))&quot;, :offset 205, :ns &quot;cljscript.core&quot;} {:command &quot;(defn atom-input [value]\n  [text-input {:type \&quot;text\&quot;\n                :value @value\n                }])&quot;, :offset 102, :ns &quot;cljscript.core&quot;} {:command &quot;(def click-count (r/atom 0))&quot;, :offset 28, :ns &quot;cljscript.core&quot;} {:command &quot;(alert \&quot;hello\&quot;)&quot;, :offset 15, :ns &quot;cljscript.core&quot;} {:command &quot;(defn atom-input [value]\n  [text-input {:type \&quot;text\&quot;\n               :value @value\n               :on-change-text #(swap! click-count inc) }])&quot;, :offset 141, :ns &quot;cljscript.core&quot;} {:command &quot;(atom-input \&quot;hello\&quot;)&quot;, :offset 20, :ns &quot;cljscript.core&quot;} {:command &quot;[ atom-input \&quot;hello\&quot; ]&quot;, :offset 22, :ns &quot;cljscript.core&quot;} {:command &quot;(click-count inc)&quot;, :offset 17, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! click-count inc)&quot;, :offset 23, :ns &quot;cljscript.core&quot;} {:command &quot;(defn test [] \n  (print \&quot;Hello\&quot;))&quot;, :offset 33, :ns &quot;cljscript.core&quot;} {:command &quot;(def test [] (fn [] (print \&quot;Helllo\&quot;)))&quot;, :offset 38, :ns &quot;cljs.user&quot;} {:command &quot;(def test [] (print \&quot;Hello\&quot;))&quot;, :offset 29, :ns &quot;cljs.user&quot;} {:command &quot;(defn test [x] (inc x))&quot;, :offset 23, :ns &quot;cljs.user&quot;} {:command &quot;(defn test [x] (print \&quot;hello\&quot;))&quot;, :offset 31, :ns &quot;cljs.user&quot;} {:command &quot;(test)&quot;, :offset 6, :ns &quot;cljs.user&quot;} {:command &quot;#(test)&quot;, :offset 7, :ns &quot;cljs.user&quot;} {:command &quot;(defn test [] (print \&quot;hello\&quot;))&quot;, :offset 30, :ns &quot;cljs.user&quot;} {:command &quot;(test [] )&quot;, :offset 10, :ns &quot;cljs.user&quot;} {:command &quot;(test [] ())&quot;, :offset 12, :ns &quot;cljs.user&quot;} {:command &quot;(defn test []\n  (print \&quot;Hello\&quot;))&quot;, :offset 32, :ns &quot;cljscript.core&quot;} {:command &quot;(fn [] (print \&quot;hello\&quot;))&quot;, :offset 23, :ns &quot;cljscript.core&quot;} {:command &quot;(fn test [] (print \&quot;hello\&quot;))&quot;, :offset 28, :ns &quot;cljscript.core&quot;} {:command &quot;(test [])&quot;, :offset 9, :ns &quot;cljscript.core&quot;} {:command &quot;#(test [])&quot;, :offset 10, :ns &quot;cljscript.core&quot;} {:command &quot;(print (str \&quot;sdf\&quot; \&quot;sdf\&quot;))&quot;, :offset 25, :ns &quot;cljscript.core&quot;} {:command &quot;(defn atom-input []\n  (let [val (r/atom \&quot;\&quot;)]\n  [text-input {:type \&quot;text\&quot;\n               :value @val\n               :on-change-text #(reset! val (str \&quot;sdf\&quot; \&quot;heloo\&quot;)) }]))&quot;, :offset 169, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt; \&quot;h\&quot; .- \&quot;sdkfj\&quot;)&quot;, :offset 19, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt; \&quot;h\&quot; .-\&quot;sdkfj\&quot;)&quot;, :offset 18, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt; \&quot;h\&quot; \&quot;sdkfj\&quot;)&quot;, :offset 16, :ns &quot;cljscript.core&quot;} {:command &quot;(defn atom-input []\n  (let [val (r/atom \&quot;\&quot;)]\n  [text-input {:type \&quot;text\&quot;\n               :value @val\n               :on-change-text #(reset! val (-&gt; %  .-val)) }]))&quot;, :offset 163, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt; \&quot;h\&quot; .-val)&quot;, :offset 14, :ns &quot;cljscript.core&quot;} {:command &quot;(defn atom-input []\n  (let [val (r/atom \&quot;kk\&quot;)]\n  [text-input {:type \&quot;text\&quot;\n               :value @val\n               :on-change-text #(reset! val (-&gt; %  .-val)) }]))&quot;, :offset 165, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt; \&quot;h\&quot; % .-val)&quot;, :offset 16, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt; \&quot;h\&quot; \&quot;d\&quot; .-val)&quot;, :offset 18, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt;&gt; \&quot;h\&quot;  .-val)&quot;, :offset 16, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt; \&quot;h\&quot;  .-val)&quot;, :offset 15, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt; \&quot;h\&quot;  val)&quot;, :offset 13, :ns &quot;cljscript.core&quot;} {:command &quot;(-&gt; .-val  .-val)&quot;, :offset 17, :ns &quot;cljscript.core&quot;} {:command &quot;(str \&quot;f\&quot; \&quot;a\&quot;)&quot;, :offset 13, :ns &quot;cljscript.core&quot;} {:command &quot;(str @val \&quot;gg\&quot;)&quot;, :offset 15, :ns &quot;cljscript.core&quot;} {:command &quot;(print (str \&quot;sdf\&quot; \&quot;gg\&quot;))&quot;, :offset 24, :ns &quot;cljscript.core&quot;} {:command &quot;(print (str val \&quot;gg\&quot;))&quot;, :offset 22, :ns &quot;cljscript.core&quot;} {:command &quot;(print (str @val \&quot;gg\&quot;))&quot;, :offset 23, :ns &quot;cljscript.core&quot;} {:command &quot;(def click-count (r/atom \&quot;click-count\&quot;))&quot;, :offset 40, :ns &quot;cljscript.core&quot;} {:command &quot;(print (str @click-count %))&quot;, :offset 28, :ns &quot;cljscript.core&quot;} {:command &quot;\&quot;gg\&quot;&quot;, :offset 4, :ns &quot;cljscript.core&quot;} {:command &quot;(print (str @click-count \&quot;gg\&quot;))&quot;, :offset 31, :ns &quot;cljscript.core&quot;} {:command &quot;(print click-count (str @click-count \&quot;gg\&quot;))&quot;, :offset 43, :ns &quot;cljscript.core&quot;} {:command &quot;(print (reset! click-count (str @click-count \&quot;gg\&quot;)))&quot;, :offset 52, :ns &quot;cljscript.core&quot;} {:command &quot;(str @click-count \&quot;gg\&quot;)&quot;, :offset 23, :ns &quot;cljscript.core&quot;} {:command &quot;(defn atom-input []\n  (let [val (r/atom \&quot;kk\&quot;)]\n  [text-input {:type \&quot;text\&quot;\n               :value @val\n               :on-change-text #(reset! val (str @val %)) }]))&quot;, :offset 164, :ns &quot;cljscript.core&quot;} {:command &quot;(def val (r/atom \&quot;\&quot;))&quot;, :offset 21, :ns &quot;cljscript.core&quot;} {:command &quot;(reset! val \&quot;sdf\&quot;)&quot;, :offset 18, :ns &quot;cljscript.core&quot;} {:command &quot;(defn atom-input []\n  (let [val (r/atom \&quot;\&quot;)]\n    [touchable-highlight \n     [text \&quot;click\&quot; {:on-press #(alert \&quot;Hello\&quot;)}]]))&quot;, :offset 122, :ns &quot;cljscript.core&quot;} {:command &quot;(key :sdf)&quot;, :offset 10, :ns &quot;cljs.user&quot;} {:command &quot;(print @height)&quot;, :offset 15, :ns &quot;cljscript.core&quot;} {:command &quot;(def gg (r/atom {:height 20}))&quot;, :offset 30, :ns &quot;cljscript.core&quot;} {:command &quot;(print gg)&quot;, :offset 10, :ns &quot;cljscript.core&quot;} {:command &quot;(print (-&gt; gg height))&quot;, :offset 22, :ns &quot;cljscript.core&quot;} {:command &quot;(print (-&gt; gg ))&quot;, :offset 16, :ns &quot;cljscript.core&quot;} {:command &quot;(print (-&gt;&gt; gg height))&quot;, :offset 23, :ns &quot;cljscript.core&quot;} {:command &quot;(print gg height)&quot;, :offset 17, :ns &quot;cljscript.core&quot;} {:command &quot;(def test [let {:keys [height ]}])&quot;, :offset 34, :ns &quot;cljscript.core&quot;} {:command &quot;(def test [let {:keys [height ]}] (print keys))&quot;, :offset 47, :ns &quot;cljscript.core&quot;} {:command &quot;(defn test [let {:keys [height ]}] (print keys))&quot;, :offset 48, :ns &quot;cljscript.core&quot;} {:command &quot;(test 100)&quot;, :offset 10, :ns &quot;cljscript.core&quot;} {:command &quot;( (defn test [let {:keys [height ]}] (print keys)))&quot;, :offset 51, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n  (let [time (r/atom 0)]\n    (fn []\n      [view {:style {:padding 10 :margin-top 32}}\n       [ text \&quot;helloworld\&quot; ]])))&quot;, :offset 136, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! app \n       [text \&quot;hello\&quot;])&quot;, :offset 34, :ns &quot;cljscript.core&quot;} {:command &quot;(def test (r/atom \n            [view\n             [text \&quot;hokgoogle\&quot;]]))&quot;, :offset 71, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! app\n       [text \&quot;hello\&quot;])&quot;, :offset 33, :ns &quot;cljscript.core&quot;} {:command &quot;(def app (r/atom 0))&quot;, :offset 20, :ns &quot;cljscript.core&quot;} {:command &quot;(defn app-root []\n    (fn []\n      [app]))&quot;, :offset 42, :ns &quot;cljscript.core&quot;} {:command &quot;(def test-screen\n  [view\n   [text \&quot;ggwp\&quot;]])&quot;, :offset 43, :ns &quot;cljscript.core&quot;} {:command &quot;(def app (r/atom {}))&quot;, :offset 21, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! app assoc :view [text \&quot;Hellogirl\&quot;])&quot;, :offset 42, :ns &quot;cljscript.core&quot;} {:command &quot;(def app (atom {:view [text \&quot;hello\&quot;]}))&quot;, :offset 39, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! app assoc :view [text \&quot;assoc\&quot;])&quot;, :offset 38, :ns &quot;cljscript.core&quot;} {:command &quot;(def app (r/atom {:view [text \&quot;hello\&quot;]}))&quot;, :offset 41, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! app assoc :view [text \&quot;helloworld\&quot;])&quot;, :offset 43, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! app assoc :view [text \&quot;helloworldssssssssssssssss\&quot;])&quot;, :offset 59, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! app assoc :view [text \&quot;ggwp\&quot;])&quot;, :offset 37, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! app assoc :view [text \&quot;dsldkfjsdlkfj\&quot;])&quot;, :offset 46, :ns &quot;cljscript.core&quot;} {:command &quot;(swap! app assoc :view test-screen)&quot;, :offset 35, :ns &quot;cljscript.core&quot;} {:command &quot;(def button (-&gt; (js/require \&quot;react-native-elements\&quot;) .-button))&quot;, :offset 63, :ns &quot;cljscript.core&quot;} {:command &quot;(def test-screen\n  [view {:style {:background-color \&quot;green\&quot; :margin-top 32}}\n   [text \&quot;ggwp\&quot;]])&quot;, :offset 95, :ns &quot;cljscript.core&quot;} {:command &quot;(print \&quot;Hello\&quot;)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;j1&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(start-figwheel)&quot;, :offset 16, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Clojure REPL.REPL for cljscript">
+    <configuration default="false" name="REPL for cljscript" type="ClojureREPL" factoryName="Local" temporary="true">
+      <setting name="replType" value="1" />
+      <module name="cljscript" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <setting name="replType" value="1" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cljscript" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for cljscript" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for cljscript" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e83bc64-a1a5-4dc0-89e7-c1129e8e0f80" name="Default" comment="" />
+      <created>1497607582231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497607582231</updated>
+      <workItem from="1497607609411" duration="1253000" />
+      <workItem from="1497609074453" duration="15797000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17050000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1380" height="1049" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.506006" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399361" sideWeight="0.493994" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.484985" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.493994" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2545045" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cljscript/core.cljs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cljscript</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Leiningen: args4j:2.0.26</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
