@@ -8,19 +8,28 @@
 (def rnel-button (r/adapt-react-class  (aget react-native-elements "Button")))
 (def rnel-card (r/adapt-react-class  (aget react-native-elements "Card")))
 
-(defn alert [title]
-  (.alert rn/alert title))
+(defn alert [title content]
+  (.alert rn/alert title content
+          #js [ #js{:text "Yes"
+                    :onPress #(print "Closed, Yes")}
+                #js{:text "no"
+                    :onPress #(print "Closed, No")}]))
+;Alert.alert("k", "d", [{text: "ssdf"}]
 
 
 (def app (r/atom {:view [view {:style {:margin-top 32}} [rnel-button {:title "click" }]]}))
 (comment
   (swap! app assoc :view test-screen)
-  (swap! app assoc :view button-screen)
+  (swap! app assoc :view [view {:style {:marginTop 32}}
+                          [rnel-button {:title "test-click me"
+                                        :raised true
+                                        :kuy true
+                                        :button-style {:backgroundColor "blue"}}]])
   )
 
 (def button-screen
   [view {:style {:margin-top 32}}
-   [rnel-button {:title "click" :raised false :button-style {:background-color "green"}}]])
+   [rnel-button {:title "click me" :raised false :button-style {:background-color "green"}}]])
 
 
 (def test-screen
@@ -30,7 +39,12 @@
 
 (defn app-root []
   (fn []
-    (:view @app)))
+    [view {:style {:marginTop 32}}
+     [rnel-button {:title "click me if you can"
+                   :on-press #(alert "Hello" "this is content")
+                   :raised true
+                   :button-style {:background-color "pink"}}]
+     [text {:style {:color "red"}} "HEllo"]]))
 
 (defn init []
   (dispatch-sync [:initialize-db])
